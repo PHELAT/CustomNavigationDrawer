@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="#263238"
+        android:text="\@i2020"
+        android:gravity="center"
+        android:layout_alignParentRight="true"
+        android:textColor="#ddd"
+        android:textSize="30sp"
+        android:fontFamily="sans-serif-thin"/>
+
+    <ListView
+        android:id="@+id/left_drawer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:background="#FFFFFF"
+        android:layout_marginTop="150dp"
+        android:choiceMode="none"
+        android:smoothScrollbar="true"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="1dp" />
+
+</RelativeLayout>

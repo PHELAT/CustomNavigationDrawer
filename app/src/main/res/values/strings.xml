@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Custom NavigationDrawer</string>
+
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+
+    <string-array name="navigation_items">
+        <item>ایتم اول</item>
+        <item>ایتم دوم</item>
+        <item>ایتم سوم</item>
+    </string-array>
+
+</resources>
